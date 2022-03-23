@@ -6,5 +6,82 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contacts</title>
   </head>
-  <body></body>
+  <body>
+    <header>
+      <!--For navigation-->
+      <nav>
+        <a href="index.html"> Home</a>
+        <a href="projects.html"> Projects</a>
+        <a href="services.html"> Services</a>
+        <a href="about.html"> About</a>
+        <a href="blog.html"> Blog</a>
+        <a href="contaacts.html"> Contacts</a>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <h2><p>Drop me a line ...</p></h2>
+      </section>
+      <!--Section for contacting me-->
+      <section>
+        <form action="info.php" method="post">
+          <div>
+            <label for="name">Name*: </label> <br />
+            <input
+              type="text"
+              id="name"
+              name="Name"
+              required
+              placeholder="Enter your name"
+            />
+          </div>
+          <div>
+            <label for="email">Email*:</label> <br />
+            <input type="Email" id="email" name="email" />
+          </div>
+
+          <div>
+            <label for="phneNo">Tel</label> <br />
+            <input type="tel" name="number" id="phneNo" />
+          </div>
+          <div>
+            <label for="project">Project:</label> <br />
+            <select name="Projects" id="project">
+              <option value="android">Android application</option>
+              <option value="embedded">Embeded system application</option>
+              <option value="IOT">IOT application</option>
+              <option value="cyber">Cybersecurity project</option>
+            </select>
+          </div>
+          <div>
+            <label for="text">Description</label> <br />
+            <textarea name="text" id="text" cols="30" rows="10">
+comments </textarea
+            >
+          </div>
+          <div>
+            <input type="checkbox" name="subscribe" id="subscription" />
+            <label for="subscription"> subscribe for updates </label>
+          </div>
+          <input type="submit" value="Send messege" />
+        </form>
+      </section>
+    </main>
+
+    <!--Social media links-->
+    <footer>
+      <div class="sociallinks">
+        <p>My social media links</p>
+        <ul>
+          <li><a href="https://github.com/">github</a></li>
+
+          <li><a href="https://www.instagram.com/kaaahz__/"> instagram</a></li>
+          <li><a href="mailto:kazungutracy711@gmail.com">Email</a></li>
+        </ul>
+
+        <p>&copy; 2022 All rights reserved &trade; Kazungu Tracy Chao</p>
+      </div>
+    </footer>
+  </body>
 </html>
