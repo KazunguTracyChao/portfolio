@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Web Portfolio Project</title>
+    <!----CSS link----->
+    <link rel="stylesheet" href="style.css">
+    <!---Fontawsome CDN Link---->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <script src="https://kit.fontawesome.com/77d2edf6a2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="box">
+<ul>
+<li><a href="#home"><i class="fa fa-home"></i>  Home</a></li>
+<li><a href="#about"><i class="fa fa-book">  about</i></a></li>
+<li><a href="#Blog"><i class="fa fa-cog">  Blog</i></a></li>
+<li><a href="#services"><i class="fa fa-folder">  services</i></a></li>
+<li><a href="#contact"><i class="fa fa-envelope">  contact</i></a></li>
+</ul>
+<div id="home">
+<section class="content">
+<h1>
+    Home
+</h1>
+  <p>
+      <img src="/image/kaz.png" alt="My picture" height="500px" width="400px">
+      <p><H2>Hi, I am Kazungu Tracy Chao, A SoftwareEngineer</H2></p>
+      <P>I am an enthusiast in <strong>CyberSecurity Experties</strong>  Who is passionate in helping
+           the community and individuals stay safe while using the Internet.<i><q>Safetyis Fundamental in our everyday life and that
+             does not exempt Internet safety. Cybersecurity is crucial and everyone is suseptible to cyberattacks hence the need to understan
+            how to be safe online.</q>
+</section>
+</div>
+<div id="about">
+<section class="content">
+  <h1>About</h1>
+    <section><h2>Changelog 1.0</h2></section>
+    <section>
+      <p>
+        I stared as a Cybersecurity and Network Engineer then moved to
+        Artificial Intelligence, with this experience decides to start my own
+        Cybersecurity and Networking firm. I offer different services from
+        UX/UI services to Websites and applications security.
+      </p>
+      <!--Sections showing technologies i have worked with-->
+    </section>
+    <section>
+      <h2>I have worked with</h2>
+      <table>
+        <tr>
+          <th>Languages</th>
+          <th>Frameworks</th>
+          <th>Database</th>
+        </tr>
+        <tr>
+          <td>Python</td>
+          <td>Django</td>
+          <td>SQL</td>
+        </tr>
+        <tr>
+          <td>c</td>
+          <td>Spring</td>
+          <td>My SQL lite</td>
+        </tr>
+        <tr>
+          <td>C++</td>
+          <td>React</td>
+          <td>Mongo Db</td>
+        </tr>
+        <tr>
+          <td>Bash</td>
+          <td>Laravel</td>
+          <td>My SQL</td>
+        </tr>
+      </table>
+    </section>
+</section>
+</div>
+<div id="Blog">
+<section class="content">
+<h1>
+Blogs,</h1>
+<p>
+The pain itself alleviates the aspirations of many pain guilt architects, whom we consider to be tormentors, because it prevents him from escaping the pain of the low-born inventor and no one can bear the present burden, which, for his reasons, Pleasure pushes back to follow. Never look for lasting pain and joy in the smallest things of the present!</p>
+</section>
+</div>
+<div id="services">
+<section class="content">
+<h1>
+Services</h1>
+<p>
+The pain itself alleviates the aspirations of many pain guilt architects, whom we consider to be tormentors, because it prevents him from escaping the pain of the low-born inventor and no one can bear the present burden, which, for his reasons, Pleasure pushes back to follow. Never look for lasting pain and joy in the smallest things of the present!</p>
+</section>
+</div>
+<div id="contact">
+<section class="content">
+<h1>
+Contact</h1>
+<section>
+    <h2><p>Drop me a line ...</p></h2>
+  </section>
+  <!--Section for contacting me-->
+  <section>
+    <form action="info.php" method="post">
+      <div>
+        <label for="name">Name*: </label> <br />
+        <input
+          type="text"
+          id="name"
+          name="Name"
+          required
+          placeholder="Enter your name"
+        />
+      </div>
+      <!---->
+      <div>
+        <label for="email">Email*:</label> <br />
+        <input type="Email" id="email" name="email" />
+      </div>
+      <div>
+        <label for="phneNo">Tel</label> <br />
+        <input type="tel" name="number" id="phneNo" />
+      </div>
+      <div>
+        <label for="project">Project:</label> <br />
+        <select name="Projects" id="project">
+          <option value="android">Android application</option>
+          <option value="embedded">Embeded system application</option>
+          <option value="IOT">IOT application</option>
+          <option value="cyber">Cybersecurity consulting and solutions</option>
+        </select>
+      </div>
+      <div>
+        <label for="text">Description</label> <br />
+        <textarea name="text" id="text" cols="30" rows="10">
+        </textarea>
+      </div>
+      <button onclick="alert('Your message was sent successfully ! ');" class = "fa fa-paper-plane">Send</button>
+      
+    </form>
+  </section>
+</section>
+</div>
+
+<footer>
+    <div class="sociallinks">
+      <a href="https://github.com/"><i class="fa-brands fa-github"></i></a> |  
+      <a href="https://www.instagram.com/kaaahz__/"
+        ><i class="fa-brands fa-instagram"></i
+      ></a> |  
+      <a href="mailto:kazungutracy711@gmail.com"><i class="fa fa-envelope"></i></a>
+      <p>&copy; 2022 All rights reserved &trade;  Tracy Chao</p>
+    </div>
+  </footer>
+</body>
+</html>
