@@ -85,33 +85,33 @@ ul li a:hover {
 }
 /**Front page content*/
 #home {
-  background-image: url(./image/home.jpg); /*Add image cover */
+  background-image: url("https://KazunguTracyChao.github.io/portfolio/blob/main/image/home.jpg"); /*Add image cover */
   -webkit-background-size: cover;
   background-size: cover;
   background-position: center center;
 }
 #about {
   font-size: 20px;
-  background-image: url(./image/about.jpg);
+  background-image: url("https://KazunguTracyChao.github.io/portfolio/blob/main/image/about.jpg");
   -webkit-background-size: cover;
   background-size: cover;
   background-position: center center;
 }
 #Blog {
-  background-image: url(./image/Blogs.jpg);
+  background-image: url("https://KazunguTracyChao.github.io/portfolio/blob/main/image/Blogs.jpg");
   -webkit-background-size: cover;
   background-size: cover;
   background-position: center center;
 }
 #services {
-  background-image: url(./image/services.jpg);
+  background-image: url("https://KazunguTracyChao.github.io/portfolio/blob/main/image/services.jpg");
   -webkit-background-size: cover;
   background-size: cover;
   background-position: center center;
 }
 #contact {
   align-items: justify;
-  background-image: url(./image/contact.jpg);
+  background-image: url("https://KazunguTracyChao.github.io/portfolio/blob/main/image/contact.jpg");
   -webkit-background-size: cover;
   background-size: cover;
   background-position: center center;
