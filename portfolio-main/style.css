@@ -1,0 +1,33 @@
+* {
+  font-family: "Courier New", Courier, monospace;
+}
+main {
+  background-color: turquoise;
+}
+
+nav {
+  text-align: center;
+  background-color: black;
+  padding: 20px 20px;
+}
+nav a {
+  color: blanchedalmond;
+  text-decoration: none;
+  padding-right: 50px;
+}
+a:hover {
+  color: black;
+  background-color: gold;
+}
+ul {
+  text-align: center;
+  list-style-type: none;
+  display: grid;
+}
+div a {
+  text-decoration: none;
+  padding-left: 20px;
+}
+.sociallinks {
+  text-align: center;
+}
